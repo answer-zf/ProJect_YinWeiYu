@@ -510,9 +510,7 @@ nav.navbar-expand-md.navbar-zf .navbar-nav .nav-link {
   background: rgba(234, 103, 83, 0.8);
 }
 /*菜品*/
-.food-content {
-  background: url(../img/i-foodBg.png);
-}
+
 .food-content .nav-link {
   background: #fff;
   padding: 8px 20px;

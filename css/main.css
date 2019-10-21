@@ -51,7 +51,9 @@ a:hover {
 .color-m {
   color: #225483;
 }
-
+.color-sub {
+  color: #e9333b !important;
+}
 .color-w {
   color: #fff !important;
 }
@@ -79,7 +81,9 @@ a:hover {
 .bg-h {
   background: #f7f4f8;
 }
-
+.bg-sub {
+  background: #e9333b;
+}
 /*线条*/
 .line-o {
   width: 100%;
@@ -106,7 +110,9 @@ a:hover {
 .border-width-2 {
   border-width: 2px !important;
 }
-
+.border-color-sub {
+  border-color: #e9333b !important;
+}
 /*过度*/
 
 .tran {
@@ -484,58 +490,10 @@ nav.navbar-expand-md.navbar-zf .navbar-nav .nav-link {
   background: url('../img/indexBg3.png');
 }
 /*food*/
-
-.fo-span {
-  line-height: 2;
-  letter-spacing: 3px;
-}
-.bg-food {
-  background: url(../img/food_partBg.jpg) no-repeat;
-  width: 100%;
-  height: 100%;
-}
-.food-swiper .swiper-container-horizontal > .swiper-scrollbar {
-  position: absolute;
-  left: 41% !important;
-  bottom: 0px !important;
-  z-index: 50;
-  height: 5px;
-  width: 200px;
-}
-.food-swiper .swiper-container {
-  --swiper-navigation-color: #ea6753;
+.food-page {
+  background: url('../img/foodBg.png');
 }
 
-.food-swiper .swiper-scrollbar-drag {
-  background: rgba(234, 103, 83, 0.8);
-}
-/*菜品*/
-
-.food-content .nav-link {
-  background: #fff;
-  padding: 8px 20px;
-  font-size: 28px;
-  border-radius: 0px;
-  border: 3px solid #ea6753;
-  color: #ea6753;
-}
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #ea6753;
-  color: #f5f5f5;
-}
-.food-content .mask {
-  width: 100%;
-  height: 65px;
-  background: rgba(234, 103, 83, 0.8);
-  bottom: 0;
-  left: 0;
-}
-@media (max-width: 768px) {
-  .food-wap-part1 {
-    margin-top: 30px;
-  }
-}
 /* 联系我们 */
 
 .contact {
@@ -657,7 +615,23 @@ nav.navbar-expand-md.navbar-zf .navbar-nav .nav-link {
   border-radius: 8px;
   box-shadow: 0px 0px 6px #e5e5e5;
 }
-
+.news-text {
+  padding: 0 1.5rem;
+}
+@media (max-width: 768px) {
+  .news_part_content {
+    flex-direction: column;
+  }
+  .news-text {
+    padding: 1rem 0 0;
+  }
+  .news-img {
+    width: 100%;
+  }
+  .news-img img {
+    width: 100%;
+  }
+}
 /*手机适配部分的样式*/
 
 .w-227 {
@@ -678,4 +652,27 @@ nav.navbar-expand-md.navbar-zf .navbar-nav .nav-link {
   top: 90px;
   left: 50%;
   margin-left: -71px;
+}
+
+/* coop */
+.coop-page .part1 {
+  background: url('../img/indexBg1.png');
+}
+.coop-page .box {
+  box-shadow: 0 0 5px 5px #eeeeee;
+  border-radius: 6px;
+}
+.color-block {
+  height: 36px;
+  width: 100%;
+  background-color: #225483;
+  margin-bottom: 8px;
+}
+.color-block-s {
+  height: 8px;
+  width: 100%;
+  background-color: #225483;
+}
+.coop-page .part3 {
+  background: url('../img/indexBg3.png');
 }
